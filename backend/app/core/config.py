@@ -25,7 +25,7 @@ class Settings(BaseSettings):
 
     # PostgreSQL
     POSTGRES_HOST: str = "localhost"
-    POSTGRES_PORT: int = 5432
+    POSTGRES_PORT: int = 5434
     POSTGRES_DB: str = "threat_intel_db"
     POSTGRES_USER: str = "threat_user"
     POSTGRES_PASSWORD: str = "threat_password"
@@ -34,7 +34,7 @@ class Settings(BaseSettings):
 
     # Redis
     REDIS_HOST: str = "localhost"
-    REDIS_PORT: int = 6379
+    REDIS_PORT: int = 6380
     REDIS_DB: int = 0
     REDIS_PASSWORD: str | None = None
     REDIS_MAX_CONNECTIONS: int = 20
